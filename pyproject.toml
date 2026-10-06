@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genz_bloom_filter"
+version = "0.1.0"
+description = "A high-performance Bloom filter implementation using hashlib as default"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    { name="Puneet Kumar", email="puneet.kumar.iitg@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "bitarray>=3.11.0"
+]
